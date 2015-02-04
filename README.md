@@ -9,7 +9,7 @@ This is part of my presentation at 2015 IBM ConnectED conference entitled  "AD20
 - In the directory containing this code, type "npm install"
 - To run the app, type "node app"
 
-<h3> Running on BlueMix </h3>
+<h3> Installing and Running on Bluemix </h3>
 - Create Bluemix account
 - Create new Application (web). 
 - Select IBM SDK for Node.JS
@@ -20,7 +20,7 @@ This is part of my presentation at 2015 IBM ConnectED conference entitled  "AD20
 - Select "Start Coding" from the left navigation
 - Use the simple steps on the Start Coding page to push the service to Bluemix
 
- ** Note that this application is for demonstration purposes only and is not supported by my employer.  **
+ ** <i> Note that this application is for demonstration purposes only and is not supported by my employer.</i>  **
 
 
 
