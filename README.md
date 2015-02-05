@@ -22,7 +22,7 @@ This is part of my presentation at 2015 IBM ConnectED conference entitled  "AD20
 
 <h3> Using the REST API </h3>
 <h4>Retrieve all issues</h4>
-http://&#60;your app name&#62;.mybluemix.net/api/issues
+GET http://&#60;your app name&#62;.mybluemix.net/api/issues
 <p>Example output:</p>
 <pre  style="font-family:arial;font-size:9px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> [  
  {  
@@ -70,7 +70,7 @@ http://&#60;your app name&#62;.mybluemix.net/api/issues
 
 
 <h4>Retrieve a single issue</h4>
-http://&#60;your app name&#62;.mybluemix.net/api/issues/54b3eda25c1c5c200014b3ef
+GET http://&#60;your app name&#62;.mybluemix.net/api/issues/54b3eda25c1c5c200014b3ef
 <p>Example output:</p>
 <pre  style="font-family:arial;font-size:9px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> {  
  description: "Increasing the page group limit from 200 to 400",  
