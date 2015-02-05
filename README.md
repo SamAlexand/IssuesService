@@ -21,9 +21,9 @@ This is part of my presentation at 2015 IBM ConnectED conference entitled  "AD20
 - Use the simple steps on the Start Coding page to push the service to Bluemix
 
 <h3> Using the REST API </h3>
-<h4>Retrieve all issues<h4>
+<h4>Retrieve all issues</h4>
 http://&#60;your app name&#62;.mybluemix.net/api/issues
-Example output:
+<p>Example output:</p>
 <pre  style="font-family:arial;font-size:9px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> [  
  {  
  description: "Increasing the page group limit from 200 to 400",  
@@ -69,9 +69,9 @@ Example output:
 </code></pre>
 
 
-<h4>Retrieve a single issue<h4>
+<h4>Retrieve a single issue</h4>
 http://&#60;your app name&#62;.mybluemix.net/api/issues/54b3eda25c1c5c200014b3ef
-Example output:
+<p>Example output:</p>
 <pre  style="font-family:arial;font-size:9px;border:1px dashed #CCCCCC;width:99%;height:auto;overflow:auto;background:#f0f0f0;;background-image:URL(http://2.bp.blogspot.com/_z5ltvMQPaa8/SjJXr_U2YBI/AAAAAAAAAAM/46OqEP32CJ8/s320/codebg.gif);padding:0px;color:#000000;text-align:left;line-height:20px;"><code style="color:#000000;word-wrap:normal;"> {  
  description: "Increasing the page group limit from 200 to 400",  
  body: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. cc Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.",  
